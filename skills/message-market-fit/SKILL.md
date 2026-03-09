@@ -92,11 +92,11 @@ This example shows the full flow at the quality level inputs and outputs should 
 
 **Scoring (excerpt):**
 > ICP Alignment: 3/5 — "Interactive demos" is relevant but doesn't speak to the solo PMM's specific pain of building demos alone without engineering. A VP of Sales at a 500-person company would read this the same way.
-> Differentiation: 2/5 — Navattic's site says "Create interactive product demos." Storylane says "Interactive demos, no code." This copy is interchangeable with at least two direct competitors.
+> Differentiation: 2/5 — Competitor A's site says "Create interactive product demos." Competitor B says "Interactive demos, no code." This copy is interchangeable with at least two direct competitors.
 > Emotion: 2/5 — "Sell for you" hints at relief but doesn't acknowledge the pain. There's no tension, no "I've been there" signal. A solo PMM scrolling past would think "sounds nice" not "this is for me."
 
 **Hypothesis (from audit):**
-> "Our 12% demo-to-opportunity rate is held back by generic positioning that fails to differentiate us from Navattic and Storylane, and is creating a perception gap where prospects can't tell us apart during evaluation. To fix this, we should act on differentiation and ICP specificity by rewriting our hero and outbound sequences for solo PMMs who build demos without engineering help — because our audit scored 2/5 on differentiation and 3 of our last 5 lost deals cited 'seemed similar to [competitor]' as the reason."
+> "Our 12% demo-to-opportunity rate is held back by generic positioning that fails to differentiate us from Competitor A and Competitor B, and is creating a perception gap where prospects can't tell us apart during evaluation. To fix this, we should act on differentiation and ICP specificity by rewriting our hero and outbound sequences for solo PMMs who build demos without engineering help — because our audit scored 2/5 on differentiation and 3 of our last 5 lost deals cited 'seemed similar to [competitor]' as the reason."
 
 ---
 
@@ -175,7 +175,7 @@ Would a prospect be able to identify your product from this copy if the logo was
 - 3 = Directionally differentiated but [Competitor X] could copy it with minor edits
 - 1 = Could be copy-pasted onto [Competitor X]'s site without anyone noticing
 
-When scoring differentiation, name the competitor explicitly in the evidence: "Navattic's hero says '[their headline]' — your copy makes the same promise with different words. That's a 2."
+When scoring differentiation, name the competitor explicitly in the evidence: "Competitor A's hero says '[their headline]' — your copy makes the same promise with different words. That's a 2."
 
 **3. Clarity (1–5)**
 Can a first-time visitor understand what you do and why it matters to them within 5 seconds?
@@ -214,7 +214,7 @@ ICP Alignment         2/5   "Transform your GTM" speaks to
                             no one specifically. A solo PMM
                             reads this and thinks: "is this
                             for me or for an enterprise VP?"
-Differentiation       2/5   Navattic's site says "Create
+Differentiation       2/5   Competitor A's site says "Create
                             interactive demos that convert."
                             Your headline makes the same promise.
                             A prospect comparing both sees no

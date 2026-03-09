@@ -70,17 +70,17 @@ What's being built and in what order — ranked by the impact PMMs get from each
 | 4 | `messaging-hierarchy` | Build the full stack: positioning → POV → value props → proof points → microcopy |
 | 5 | `voc-synthesis` | Process customer interview transcripts into ICP patterns, echo language, and JTBD maps |
 | 6 | `competitor-teardown` | Analyze a competitor's full messaging posture: positioning, copy, pricing, review sentiment |
+| 7 | `competitive-landing-page` ✅ | Generate production-ready "vs Competitor" landing pages for Google Ads with real review quotes, feature comparisons, and conversion-optimized copy |
 
 ### Tier 3 — Activate Across GTM
 *Take the messaging system and deploy it where it creates revenue.*
 
 | # | Skill | What it does |
 |---|---|---|
-| 7 | `launch-brief` | Full launch document: audience, hook, channel plan, success metrics, stakeholder alignment |
-| 8 | `battle-card` | One-page competitive battle card for sales — built from your messaging system, not opinions |
-| 9 | `sales-narrative` | Transform a pitch deck into a structured story arc: problem → insight → proof → ask |
-| 10 | `feature-announcement` | Turn release notes into a product narrative that creates demand, not just awareness |
-| 11 | `competitive-landing-page` ✅ | Generate production-ready "vs Competitor" landing pages for Google Ads with real review quotes, feature comparisons, and conversion-optimized copy |
+| 8 | `launch-brief` | Full launch document: audience, hook, channel plan, success metrics, stakeholder alignment |
+| 9 | `battle-card` | One-page competitive battle card for sales — built from your messaging system, not opinions |
+| 10 | `sales-narrative` | Transform a pitch deck into a structured story arc: problem → insight → proof → ask |
+| 11 | `feature-announcement` | Turn release notes into a product narrative that creates demand, not just awareness |
 
 ### Tier 4 — Close the Loop
 *Feed real-world signal back into the messaging system.*

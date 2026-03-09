@@ -83,7 +83,7 @@ This example shows the full flow at the quality level inputs and outputs should 
 > Company type: B2B SaaS, Series A-B, 30-150 employees, product-led or sales-assisted motion. Department: Product marketing (primary buyer) and pre-sales/sales engineering (primary user). The PMM owns the business case; the pre-sales engineer owns daily usage.
 
 **Pillar 3 — Competitive Alternative:**
-> What it replaces: (1) Loom recordings — async but not interactive, can't personalize per prospect. (2) Custom-built demo environments — high-fidelity but takes engineering 2-3 weeks per demo. (3) Live demos only — works but doesn't scale, requires scheduling, and the prospect can't revisit. Direct competitors: Navattic, Storylane, Walnut.
+> What it replaces: (1) Loom recordings — async but not interactive, can't personalize per prospect. (2) Custom-built demo environments — high-fidelity but takes engineering 2-3 weeks per demo. (3) Live demos only — works but doesn't scale, requires scheduling, and the prospect can't revisit. Direct competitors: Competitor A, Competitor B, Competitor C.
 
 **Pillar 4 — Differentiation:**
 > Why it's better: The combination of (a) no-code demo builder that a PMM can use without engineering, (b) prospect-level personalization at scale — swap in the prospect's logo, data, and use case in under 5 minutes, and (c) engagement analytics that show exactly which features prospects explored and where they dropped off. This solves the competitive alternative's problem: Loom can't personalize, custom demos can't scale, live demos can't be revisited.
@@ -92,7 +92,7 @@ This example shows the full flow at the quality level inputs and outputs should 
 > "[Product] is interactive demo software for B2B SaaS sales teams who need to show, not tell. Unlike Loom recordings or custom demo environments, [Product] lets PMMs build personalized, self-guided demos in minutes — with analytics that show exactly what prospects care about."
 
 **Scoring (excerpt):**
-> Ownability: 3/5 — "No-code demo builder" is also claimed by Navattic and Storylane. The personalization + analytics combination is stronger but isn't leading the positioning.
+> Ownability: 3/5 — "No-code demo builder" is also claimed by Competitor A and Competitor B. The personalization + analytics combination is stronger but isn't leading the positioning.
 > Relevance: 4/5 — Solo PMMs at Series A-B companies feel the pain of demo creation acutely. Strong alignment.
 
 ---
@@ -137,7 +137,7 @@ Ask the user to define:
 
 **Quality check:** If the audience definition works for your top 3 competitors too, it's not specific enough.
 
-> "Navattic, Storylane, and you all target 'B2B SaaS sales teams.' That's a category audience, not YOUR audience. What's different about the companies and people who choose you specifically?"
+> "Competitor A, Competitor B, and you all target 'B2B SaaS sales teams.' That's a category audience, not YOUR audience. What's different about the companies and people who choose you specifically?"
 
 If the user has completed `/icp-definition`, accept that output as the audience input here. No need to rebuild it.
 
