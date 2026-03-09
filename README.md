@@ -44,6 +44,7 @@ Then invoke any skill in Claude Code:
 | [message-market-fit](skills/message-market-fit/) | ✅ Available | Audit existing messaging assets against a specific ICP persona, score them across 5 pillars, generate 4 test variants, and run a 3-week multi-channel sprint with qualitative and quantitative signal in parallel. Produces a stakeholder-ready Messaging Specificity Report. |
 | [icp-definition](skills/icp-definition/) | 🚧 Draft | Build a layered ICP across 4 dimensions (firmographic, behavioral, psychographic, language), define the anti-ICP with disqualification signals and resource-drain indicators, and operationalize it with a signal map and activation checklist. Produces a stakeholder-ready ICP Profile Document. |
 | [positioning-audit](skills/positioning-audit/) | 🚧 Draft | Define and audit your positioning across 4 pillars (use case/category, audience, competitive alternative, differentiation), score positioning strength, flag positioning debt, and identify white space opportunities. Produces a stakeholder-ready Positioning Audit Report. |
+| [competitive-landing-page](skills/competitive-landing-page/) | ✅ Available | Generate production-ready "Your Product vs Competitor" landing pages for Google Ads. Collects product identity, competitive intelligence, and real review quotes (G2, Capterra, TrustRadius), then outputs a complete self-contained HTML page with 13 conversion-optimized sections. First page becomes the template; subsequent competitors take ~10 min. Includes [example output](skills/competitive-landing-page/examples/pipelineos-vs-dealforce.html). |
 <!-- SKILLS:END -->
 
 ---
@@ -79,16 +80,17 @@ What's being built and in what order — ranked by the impact PMMs get from each
 | 8 | `battle-card` | One-page competitive battle card for sales — built from your messaging system, not opinions |
 | 9 | `sales-narrative` | Transform a pitch deck into a structured story arc: problem → insight → proof → ask |
 | 10 | `feature-announcement` | Turn release notes into a product narrative that creates demand, not just awareness |
+| 11 | `competitive-landing-page` ✅ | Generate production-ready "vs Competitor" landing pages for Google Ads with real review quotes, feature comparisons, and conversion-optimized copy |
 
 ### Tier 4 — Close the Loop
 *Feed real-world signal back into the messaging system.*
 
 | # | Skill | What it does |
 |---|---|---|
-| 11 | `win-loss-analysis` | Extract patterns from win/loss interviews into messaging implications and positioning adjustments |
-| 12 | `objection-handler` | Map common objections to specific messaging responses with proof points and talk tracks |
-| 13 | `case-study-framework` | Structure a customer case study using the same messaging pillars as your GTM — so it compounds |
-| 14 | `executive-briefing` | Turn market data and messaging results into a tight, revenue-tied narrative for leadership |
+| 12 | `win-loss-analysis` | Extract patterns from win/loss interviews into messaging implications and positioning adjustments |
+| 13 | `objection-handler` | Map common objections to specific messaging responses with proof points and talk tracks |
+| 14 | `case-study-framework` | Structure a customer case study using the same messaging pillars as your GTM — so it compounds |
+| 15 | `executive-briefing` | Turn market data and messaging results into a tight, revenue-tied narrative for leadership |
 
 ---
 
