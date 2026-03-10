@@ -220,7 +220,40 @@ Separate bad-fit accounts into three tiers:
 
 The third tier is the most important. These are the deals that consume pipeline and inflate forecasts but never close (or close and churn in 90 days).
 
-### Step 4: Create Red Flag Checklist
+### Step 4: Filter Your Pipeline — The Disqualified Ratio
+
+Before building the red flag checklist, quantify the damage. Ask the user to pull their last quarter's pipeline and classify each deal against the anti-ICP tiers above.
+
+> "Look at your last quarter's closed-lost deals and current stalled opportunities. How many match the anti-ICP profile we just defined? That's your disqualified ratio — and it's the number that makes the business case for sharpening your ICP."
+
+**How to calculate:**
+
+```
+DISQUALIFIED RATIO
+
+Last quarter's pipeline:
+  Total opportunities:        [X]
+  Matched anti-ICP criteria:  [Y]
+  Disqualified ratio:         [Y/X]%
+
+Revenue impact:
+  Avg deal size × anti-ICP opps = $[Z] in pipeline
+  that was never going to close
+
+Time impact:
+  Avg sales cycle × anti-ICP opps = [N] hours of
+  sales time spent on deals that were dead on arrival
+```
+
+If the user doesn't have clean CRM data, help them estimate from what they know — even 5-10 recent deals classified manually produces a useful signal.
+
+**Why this matters:** The disqualified ratio turns the anti-ICP from a conceptual exercise into a revenue conversation. "30% of our pipeline last quarter matched anti-ICP criteria — that's $400K in phantom pipeline and 200 hours of sales time" is the kind of statement that gets executive attention.
+
+**-> Share the disqualified ratio with the user. This number goes directly into the stakeholder summary. Confirm before proceeding.**
+
+---
+
+### Step 5: Create Red Flag Checklist
 
 Turn the anti-ICP into a qualification checklist sales can use in the first call:
 

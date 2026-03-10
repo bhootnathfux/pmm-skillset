@@ -25,7 +25,12 @@ Or clone and copy manually:
 
 ```bash
 git clone https://github.com/Fearofsnakes/pmm-skillset.git
+
+# Install all skills (preserves tier structure)
 cp -r pmm-skillset/skills/* .claude/skills/
+
+# Install a single tier
+cp -r pmm-skillset/skills/tier-1/* .claude/skills/
 ```
 
 Then invoke any skill in Claude Code:
@@ -39,12 +44,12 @@ Then invoke any skill in Claude Code:
 ## Available Skills
 
 <!-- SKILLS:START -->
-| Skill | Status | Description |
-|---|---|---|
-| [message-market-fit](skills/message-market-fit/) | ✅ Available | Audit existing messaging assets against a specific ICP persona, score them across 5 pillars, generate 4 test variants, and run a 3-week multi-channel sprint with qualitative and quantitative signal in parallel. Produces a stakeholder-ready Messaging Specificity Report. |
-| [icp-definition](skills/icp-definition/) | 🚧 Draft | Build a layered ICP across 4 dimensions (firmographic, behavioral, psychographic, language), define the anti-ICP with disqualification signals and resource-drain indicators, and operationalize it with a signal map and activation checklist. Produces a stakeholder-ready ICP Profile Document. |
-| [positioning-audit](skills/positioning-audit/) | 🚧 Draft | Define and audit your positioning across 4 pillars (use case/category, audience, competitive alternative, differentiation), score positioning strength, flag positioning debt, and identify white space opportunities. Produces a stakeholder-ready Positioning Audit Report. |
-| [competitive-landing-page](skills/competitive-landing-page/) | ✅ Available | Generate production-ready "Your Product vs Competitor" landing pages for Google Ads. Collects product identity, competitive intelligence, and real review quotes (G2, Capterra, TrustRadius), then outputs a complete self-contained HTML page with 13 conversion-optimized sections. First page becomes the template; subsequent competitors take ~10 min. Includes [example output](skills/competitive-landing-page/examples/pipelineos-vs-dealforce.html). |
+| Skill | Tier | Status | Description |
+|---|---|---|---|
+| [message-market-fit](skills/tier-1/message-market-fit/) | 1 | ✅ Available | Audit existing messaging assets against a specific ICP persona, score them across 5 pillars, generate 4 test variants, and run a 3-week multi-channel sprint with qualitative and quantitative signal in parallel. Produces a stakeholder-ready Messaging Specificity Report. |
+| [icp-definition](skills/tier-1/icp-definition/) | 1 | ✅ Available | Build a layered ICP across 4 dimensions (firmographic, behavioral, psychographic, language), define the anti-ICP with disqualification signals and resource-drain indicators, calculate your disqualified ratio, and operationalize it with a signal map and activation checklist. Produces a stakeholder-ready ICP Profile Document. |
+| [positioning-audit](skills/tier-1/positioning-audit/) | 1 | ✅ Available | Define and audit your positioning across 4 pillars (use case/category, audience, competitive alternative, differentiation), score positioning strength, flag positioning debt, and identify white space opportunities. Produces a stakeholder-ready Positioning Audit Report. |
+| [competitive-landing-page](skills/tier-2/competitive-landing-page/) | 2 | ✅ Available | Generate production-ready "Your Product vs Competitor" landing pages for Google Ads. Collects product identity, competitive intelligence, and real review quotes (G2, Capterra, TrustRadius), then outputs a complete self-contained HTML page with 13 conversion-optimized sections. First page becomes the template; subsequent competitors take ~10 min. Includes [example output](skills/tier-2/competitive-landing-page/examples/pipelineos-vs-dealforce.html). |
 <!-- SKILLS:END -->
 
 ---
@@ -59,8 +64,8 @@ What's being built and in what order — ranked by the impact PMMs get from each
 | # | Skill | What it does | Why it's first |
 |---|---|---|---|
 | 1 | `message-market-fit` ✅ | Audit assets, score specificity, test variants, declare winner | The diagnostic that exposes every other problem |
-| 2 | `icp-definition` | Build a layered ICP: firmographic → behavioral → psychographic → anti-ICP | You can't write specific messaging without a specific audience |
-| 3 | `positioning-audit` | Map your position vs. 3–5 competitors, identify white space, flag positioning debt | Bad messaging is usually a positioning problem in disguise |
+| 2 | `icp-definition` ✅ | Build a layered ICP: firmographic → behavioral → psychographic → anti-ICP | You can't write specific messaging without a specific audience |
+| 3 | `positioning-audit` ✅ | Map your position vs. 3–5 competitors, identify white space, flag positioning debt | Bad messaging is usually a positioning problem in disguise |
 
 ### Tier 2 — Build the Messaging System
 *Once the foundation is solid, build the architecture.*
