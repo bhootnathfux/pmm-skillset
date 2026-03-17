@@ -51,6 +51,7 @@ Then invoke any skill in Claude Code:
 | [positioning-audit](skills/tier-1/positioning-audit/) | 1 | ✅ Available | Define and audit your positioning across 4 pillars (use case/category, audience, competitive alternative, differentiation), score positioning strength, flag positioning debt, and identify white space opportunities. Produces a stakeholder-ready Positioning Audit Report. |
 | [competitive-landing-page](skills/tier-2/competitive-landing-page/) | 2 | ✅ Available | Generate production-ready "Your Product vs Competitor" landing pages for Google Ads. Collects product identity, competitive intelligence, and real review quotes (G2, Capterra, TrustRadius), then outputs a complete self-contained HTML page with 13 conversion-optimized sections. First page becomes the template; subsequent competitors take ~10 min. Includes [example output](skills/tier-2/competitive-landing-page/examples/pipelineos-vs-dealforce.html). |
 | [messaging-hierarchy](skills/tier-2/messaging-hierarchy/) | 2 | ✅ Available | Build a 5-layer messaging stack from positioning: POV, value proposition, 3 benefits, proof points, and features — with quality tests at every layer, persona adaptations, channel mapping, and a narrative structure. Every element traces up the chain. Produces a stakeholder-ready Messaging Hierarchy Document with a "how to use this" guide per use case. |
+| [voc-synthesis](skills/tier-2/voc-synthesis/) | 2 | ✅ Available | Synthesize messy, multi-source VOC data (transcripts, surveys, reviews, CRM notes) into a structured Buyer Brain with frequency-weighted patterns, echo language bank, contradiction map, and evidence chains. Every claim traces to a real quote. Feeds directly into `/messaging-hierarchy`, `/positioning-audit`, and `/message-market-fit`. |
 <!-- SKILLS:END -->
 
 ---
@@ -74,7 +75,7 @@ What's being built and in what order — ranked by the impact PMMs get from each
 | # | Skill | What it does |
 |---|---|---|
 | 4 | `messaging-hierarchy` ✅ | Build the full stack: positioning → POV → value props → proof points → microcopy |
-| 5 | `voc-synthesis` | Process customer interview transcripts into ICP patterns, echo language, and JTBD maps |
+| 5 | `voc-synthesis` ✅ | Synthesize multi-source VOC data into a frequency-weighted Buyer Brain with echo language, contradiction map, and evidence chains |
 | 6 | `competitor-teardown` | Analyze a competitor's full messaging posture: positioning, copy, pricing, review sentiment |
 | 7 | `competitive-landing-page` ✅ | Generate production-ready "vs Competitor" landing pages for Google Ads with real review quotes, feature comparisons, and conversion-optimized copy |
 
