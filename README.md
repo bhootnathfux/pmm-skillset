@@ -50,6 +50,7 @@ Then invoke any skill in Claude Code:
 | [icp-definition](skills/tier-1/icp-definition/) | 1 | ✅ Available | Build a layered ICP across 4 dimensions (firmographic, behavioral, psychographic, language), define the anti-ICP with disqualification signals and resource-drain indicators, calculate your disqualified ratio, and operationalize it with a signal map and activation checklist. Produces a stakeholder-ready ICP Profile Document. |
 | [positioning-audit](skills/tier-1/positioning-audit/) | 1 | ✅ Available | Define and audit your positioning across 4 pillars (use case/category, audience, competitive alternative, differentiation), score positioning strength, flag positioning debt, and identify white space opportunities. Produces a stakeholder-ready Positioning Audit Report. |
 | [competitive-landing-page](skills/tier-2/competitive-landing-page/) | 2 | ✅ Available | Generate production-ready "Your Product vs Competitor" landing pages for Google Ads. Collects product identity, competitive intelligence, and real review quotes (G2, Capterra, TrustRadius), then outputs a complete self-contained HTML page with 13 conversion-optimized sections. First page becomes the template; subsequent competitors take ~10 min. Includes [example output](skills/tier-2/competitive-landing-page/examples/pipelineos-vs-dealforce.html). |
+| [messaging-hierarchy](skills/tier-2/messaging-hierarchy/) | 2 | ✅ Available | Build a 5-layer messaging stack from positioning: POV, value proposition, 3 benefits, proof points, and features — with quality tests at every layer, persona adaptations, channel mapping, and a narrative structure. Every element traces up the chain. Produces a stakeholder-ready Messaging Hierarchy Document with a "how to use this" guide per use case. |
 <!-- SKILLS:END -->
 
 ---
@@ -72,7 +73,7 @@ What's being built and in what order — ranked by the impact PMMs get from each
 
 | # | Skill | What it does |
 |---|---|---|
-| 4 | `messaging-hierarchy` | Build the full stack: positioning → POV → value props → proof points → microcopy |
+| 4 | `messaging-hierarchy` ✅ | Build the full stack: positioning → POV → value props → proof points → microcopy |
 | 5 | `voc-synthesis` | Process customer interview transcripts into ICP patterns, echo language, and JTBD maps |
 | 6 | `competitor-teardown` | Analyze a competitor's full messaging posture: positioning, copy, pricing, review sentiment |
 | 7 | `competitive-landing-page` ✅ | Generate production-ready "vs Competitor" landing pages for Google Ads with real review quotes, feature comparisons, and conversion-optimized copy |

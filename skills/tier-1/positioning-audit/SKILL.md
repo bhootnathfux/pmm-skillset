@@ -476,7 +476,7 @@ Positioning is the foundation — everything downstream depends on it. Consider 
 
 - **Test your messaging against this positioning** — Run `/message-market-fit` to see if your messaging actually delivers the positioning you just defined. Positioning is the strategy; messaging is the execution.
 - **Sharpen your ICP** — If the audience pillar revealed uncertainty, run `/icp-definition` to build the full layered ICP this positioning needs.
-- **Build the messaging hierarchy** — Run `/messaging-hierarchy` (coming soon) to translate this positioning into a full messaging stack: POV, value props, proof points, and microcopy.
+- **Build the messaging hierarchy** — Run `/messaging-hierarchy` to translate this positioning into a full messaging stack: POV, value props, proof points, and microcopy.
 
 ---
 
