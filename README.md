@@ -2,7 +2,7 @@
 
 Claude Code skills for Product Marketing Managers.
 
-Built by [Gab Bujold](https://pressxtomarket.com?ref=pmm-skillset) — The Agentic PMM. Subscribe to the [Employee Zero newsletter](https://pressxtomarket.com/newsletter?ref=pmm-skillset) for weekly breakdowns on AI-powered product marketing.
+Built by [Gab Bujold](https://www.linkedin.com/in/gabriel-bujold/) — The Agentic PMM. Subscribe to the [Employee Zero newsletter](https://newsletter.pressxtomarket.com?ref=pmm-skillset) for weekly breakdowns on AI-powered product marketing.
 
 Most AI tools give marketers generic advice. These skills give PMMs a system: opinionated frameworks, evidence-based outputs, and artifacts they can actually use in stakeholder meetings, sales calls, and GTM sprints.
 
@@ -188,7 +188,7 @@ Want to contribute a skill or improve an existing one? See [CONTRIBUTING.md](CON
 
 ## About
 
-Built by [Gab Bujold](https://pressxtomarket.com?ref=pmm-skillset), product marketing consultant and creator of the [Employee Zero newsletter](https://pressxtomarket.com/newsletter?ref=pmm-skillset).
+Built by [Gab Bujold](https://www.linkedin.com/in/gabriel-bujold/), product marketing consultant and creator of the [Employee Zero newsletter](https://newsletter.pressxtomarket.com?ref=pmm-skillset).
 
 Gab has worked with 30+ B2B SaaS startups on positioning and messaging, surveyed 65+ PMMs on their testing processes, and built the message testing system these skills are based on.
 
