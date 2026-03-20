@@ -2,12 +2,55 @@
 
 Claude Code skills for Product Marketing Managers.
 
-Built by [Gab Bujold](https://newsletter.messagingsherpa.com) — The Agentic PMM.
+Built by [Gab Bujold](https://pressxtomarket.com?ref=pmm-skillset) — The Agentic PMM. Subscribe to the [Employee Zero newsletter](https://pressxtomarket.com/newsletter?ref=pmm-skillset) for weekly breakdowns on AI-powered product marketing.
 
 Most AI tools give marketers generic advice. These skills give PMMs a system: opinionated frameworks, evidence-based outputs, and artifacts they can actually use in stakeholder meetings, sales calls, and GTM sprints.
 
 **The core question driving every skill:**
 > *"Is our messaging specific enough to move the right people?"*
+
+---
+
+## How Skills Work Together
+
+Each skill produces a specific artifact. Skills chain together — the output of one becomes the input of the next.
+
+```
+                    ┌─────────────────┐
+                    │  icp-definition  │
+                    │   (who to target)│
+                    └────────┬────────┘
+                             │
+                    ┌────────▼────────┐
+                    │positioning-audit │
+                    │ (where you stand)│
+                    └────────┬────────┘
+                             │
+               ┌─────────────┼─────────────┐
+               │             │             │
+      ┌────────▼───────┐    │    ┌────────▼────────┐
+      │ voc-synthesis   │    │    │ competitor-      │
+      │ (buyer language)│    │    │ teardown         │
+      └────────┬───────┘    │    └────────┬────────┘
+               │             │             │
+               └─────────────┼─────────────┘
+                             │
+                    ┌────────▼────────┐
+                    │   messaging-    │
+                    │   hierarchy     │
+                    │ (what to say)   │
+                    └────────┬────────┘
+                             │
+          ┌──────────────────┼──────────────────┐
+          │                  │                  │
+ ┌────────▼───────┐ ┌───────▼────────┐ ┌───────▼────────┐
+ │message-market-  │ │ competitive-   │ │  launch-brief  │
+ │fit              │ │ landing-page   │ │  (GTM plan)    │
+ │(test & prove)   │ │ (convert)      │ │                │
+ └─────────────────┘ └────────────────┘ └────────────────┘
+```
+
+You don't have to run them in order. Each skill works standalone. But they compound when chained.
 
 ---
 
@@ -33,6 +76,12 @@ cp -r pmm-skillset/skills/* .claude/skills/
 cp -r pmm-skillset/skills/tier-1/* .claude/skills/
 ```
 
+Or use as a git submodule (keeps skills updated):
+
+```bash
+git submodule add https://github.com/Fearofsnakes/pmm-skillset.git .claude/skills/pmm-skillset
+```
+
 Then invoke any skill in Claude Code:
 
 ```
@@ -52,6 +101,7 @@ Then invoke any skill in Claude Code:
 | [competitive-landing-page](skills/tier-2/competitive-landing-page/) | 2 | ✅ Available | Generate production-ready "Your Product vs Competitor" landing pages for Google Ads. Collects product identity, competitive intelligence, and real review quotes (G2, Capterra, TrustRadius), then outputs a complete self-contained HTML page with 13 conversion-optimized sections. First page becomes the template; subsequent competitors take ~10 min. Includes [example output](skills/tier-2/competitive-landing-page/examples/pipelineos-vs-dealforce.html). |
 | [messaging-hierarchy](skills/tier-2/messaging-hierarchy/) | 2 | ✅ Available | Build a 5-layer messaging stack from positioning: POV, value proposition, 3 benefits, proof points, and features — with quality tests at every layer, persona adaptations, channel mapping, and a narrative structure. Every element traces up the chain. Produces a stakeholder-ready Messaging Hierarchy Document with a "how to use this" guide per use case. |
 | [voc-synthesis](skills/tier-2/voc-synthesis/) | 2 | ✅ Available | Synthesize messy, multi-source VOC data (transcripts, surveys, reviews, CRM notes) into a structured Buyer Brain with frequency-weighted patterns, echo language bank, contradiction map, and evidence chains. Every claim traces to a real quote. Feeds directly into `/messaging-hierarchy`, `/positioning-audit`, and `/message-market-fit`. |
+| [launch-brief](skills/tier-3/launch-brief/) | 3 | ✅ Available | Turn a product spec into a full launch plan: scope and tier the launch, define the messaging hook, build a channel plan with sequencing, set success metrics, map stakeholders with RACI, and produce a phase-by-phase execution timeline. Produces a stakeholder-ready Launch Brief Document with a 60-second launch pitch. |
 <!-- SKILLS:END -->
 
 ---
@@ -84,7 +134,7 @@ What's being built and in what order — ranked by the impact PMMs get from each
 
 | # | Skill | What it does |
 |---|---|---|
-| 8 | `launch-brief` | Full launch document: audience, hook, channel plan, success metrics, stakeholder alignment |
+| 8 | `launch-brief` ✅ | Full launch document: audience, hook, channel plan, success metrics, stakeholder alignment |
 | 9 | `battle-card` | One-page competitive battle card for sales — built from your messaging system, not opinions |
 | 10 | `sales-narrative` | Transform a pitch deck into a structured story arc: problem → insight → proof → ask |
 | 11 | `feature-announcement` | Turn release notes into a product narrative that creates demand, not just awareness |
@@ -130,13 +180,25 @@ These skills crawl real assets (website URLs, ad copy, email sequences), score t
 
 ---
 
+## Contributing
+
+Want to contribute a skill or improve an existing one? See [CONTRIBUTING.md](CONTRIBUTING.md) for the skill structure, quality checklist, and submission process.
+
+---
+
 ## About
 
-Built by [Gab Bujold](https://newsletter.messagingsherpa.com), product marketing consultant and creator of the Messaging Sherpa newsletter.
+Built by [Gab Bujold](https://pressxtomarket.com?ref=pmm-skillset), product marketing consultant and creator of the [Employee Zero newsletter](https://pressxtomarket.com/newsletter?ref=pmm-skillset).
 
 Gab has worked with 30+ B2B SaaS startups on positioning and messaging, surveyed 65+ PMMs on their testing processes, and built the message testing system these skills are based on.
 
 Questions, feedback, or want to contribute a skill? [Open an issue](https://github.com/Fearofsnakes/pmm-skillset/issues) or reach out on [LinkedIn](https://www.linkedin.com/in/gabriel-bujold/).
+
+---
+
+## License
+
+[MIT](LICENSE)
 
 ---
 
