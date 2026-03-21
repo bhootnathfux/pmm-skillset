@@ -95,12 +95,12 @@ Then invoke any skill in Claude Code:
 <!-- SKILLS:START -->
 | Skill | Tier | Status | Description |
 |---|---|---|---|
-| [message-market-fit](skills/tier-1/message-market-fit/) | 1 | ✅ Available | Audit existing messaging assets against a specific ICP persona, score them across 5 pillars, generate 4 test variants, and run a 3-week multi-channel sprint with qualitative and quantitative signal in parallel. Produces a stakeholder-ready Messaging Specificity Report. |
 | [icp-definition](skills/tier-1/icp-definition/) | 1 | ✅ Available | Build a layered ICP across 4 dimensions (firmographic, behavioral, psychographic, language), define the anti-ICP with disqualification signals and resource-drain indicators, calculate your disqualified ratio, and operationalize it with a signal map and activation checklist. Produces a stakeholder-ready ICP Profile Document. |
 | [positioning-audit](skills/tier-1/positioning-audit/) | 1 | ✅ Available | Define and audit your positioning across 4 pillars (use case/category, audience, competitive alternative, differentiation), score positioning strength, flag positioning debt, and identify white space opportunities. Produces a stakeholder-ready Positioning Audit Report. |
-| [competitive-landing-page](skills/tier-2/competitive-landing-page/) | 2 | ✅ Available | Generate production-ready "Your Product vs Competitor" landing pages for Google Ads. Collects product identity, competitive intelligence, and real review quotes (G2, Capterra, TrustRadius), then outputs a complete self-contained HTML page with 13 conversion-optimized sections. First page becomes the template; subsequent competitors take ~10 min. Includes [example output](skills/tier-2/competitive-landing-page/examples/pipelineos-vs-dealforce.html). |
-| [messaging-hierarchy](skills/tier-2/messaging-hierarchy/) | 2 | ✅ Available | Build a 5-layer messaging stack from positioning: POV, value proposition, 3 benefits, proof points, and features — with quality tests at every layer, persona adaptations, channel mapping, and a narrative structure. Every element traces up the chain. Produces a stakeholder-ready Messaging Hierarchy Document with a "how to use this" guide per use case. |
+| [messaging-hierarchy](skills/tier-1/messaging-hierarchy/) | 1 | ✅ Available | Build a 5-layer messaging stack from positioning: POV, value proposition, 3 benefits, proof points, and features — with quality tests at every layer, persona adaptations, channel mapping, and a narrative structure. Every element traces up the chain. Produces a stakeholder-ready Messaging Hierarchy Document with a "how to use this" guide per use case. |
+| [message-market-fit](skills/tier-2/message-market-fit/) | 2 | ✅ Available | Audit existing messaging assets against a specific ICP persona, score them across 5 pillars, generate 4 test variants, and run a 3-week multi-channel sprint with qualitative and quantitative signal in parallel. Produces a stakeholder-ready Messaging Specificity Report. |
 | [voc-synthesis](skills/tier-2/voc-synthesis/) | 2 | ✅ Available | Synthesize messy, multi-source VOC data (transcripts, surveys, reviews, CRM notes) into a structured Buyer Brain with frequency-weighted patterns, echo language bank, contradiction map, and evidence chains. Every claim traces to a real quote. Feeds directly into `/messaging-hierarchy`, `/positioning-audit`, and `/message-market-fit`. |
+| [competitive-landing-page](skills/tier-2/competitive-landing-page/) | 2 | ✅ Available | Generate production-ready "Your Product vs Competitor" landing pages for Google Ads. Collects product identity, competitive intelligence, and real review quotes (G2, Capterra, TrustRadius), then outputs a complete self-contained HTML page with 13 conversion-optimized sections. First page becomes the template; subsequent competitors take ~10 min. Includes [example output](skills/tier-2/competitive-landing-page/examples/pipelineos-vs-dealforce.html). |
 | [launch-brief](skills/tier-3/launch-brief/) | 3 | ✅ Available | Turn a product spec into a full launch plan: scope and tier the launch, define the messaging hook, build a channel plan with sequencing, set success metrics, map stakeholders with RACI, and produce a phase-by-phase execution timeline. Produces a stakeholder-ready Launch Brief Document with a 60-second launch pitch. |
 <!-- SKILLS:END -->
 
@@ -115,19 +115,19 @@ What's being built and in what order — ranked by the impact PMMs get from each
 
 | # | Skill | What it does | Why it's first |
 |---|---|---|---|
-| 1 | `message-market-fit` ✅ | Audit assets, score specificity, test variants, declare winner | The diagnostic that exposes every other problem |
-| 2 | `icp-definition` ✅ | Build a layered ICP: firmographic → behavioral → psychographic → anti-ICP | You can't write specific messaging without a specific audience |
-| 3 | `positioning-audit` ✅ | Map your position vs. 3–5 competitors, identify white space, flag positioning debt | Bad messaging is usually a positioning problem in disguise |
+| 1 | `icp-definition` ✅ | Build a layered ICP: firmographic → behavioral → psychographic → anti-ICP | You can't write specific messaging without a specific audience |
+| 2 | `positioning-audit` ✅ | Map your position vs. 3–5 competitors, identify white space, flag positioning debt | Bad messaging is usually a positioning problem in disguise |
+| 3 | `messaging-hierarchy` ✅ | Build the full stack: positioning → POV → value props → proof points → microcopy | The architecture that makes everything downstream consistent |
 
-### Tier 2 — Build the Messaging System
-*Once the foundation is solid, build the architecture.*
+### Tier 2 — Test, Validate & Convert
+*Once the foundation is solid, test it against the market.*
 
 | # | Skill | What it does |
 |---|---|---|
-| 4 | `messaging-hierarchy` ✅ | Build the full stack: positioning → POV → value props → proof points → microcopy |
+| 4 | `message-market-fit` ✅ | Audit assets, score specificity, test variants, declare winner |
 | 5 | `voc-synthesis` ✅ | Synthesize multi-source VOC data into a frequency-weighted Buyer Brain with echo language, contradiction map, and evidence chains |
-| 6 | `competitor-teardown` | Analyze a competitor's full messaging posture: positioning, copy, pricing, review sentiment |
-| 7 | `competitive-landing-page` ✅ | Generate production-ready "vs Competitor" landing pages for Google Ads with real review quotes, feature comparisons, and conversion-optimized copy |
+| 6 | `competitive-landing-page` ✅ | Generate production-ready "vs Competitor" landing pages for Google Ads with real review quotes, feature comparisons, and conversion-optimized copy |
+| 7 | `competitor-teardown` | Analyze a competitor's full messaging posture: positioning, copy, pricing, review sentiment |
 
 ### Tier 3 — Activate Across GTM
 *Take the messaging system and deploy it where it creates revenue.*
@@ -154,13 +154,13 @@ What's being built and in what order — ranked by the impact PMMs get from each
 ## Where to Start
 
 **If you're a solo PMM fighting messaging-by-committee:**
-→ Start with `message-market-fit`. Run the audit on your current website and outbound. Use the Messaging Specificity Report in your next stakeholder meeting.
+→ Start with `icp-definition` and `positioning-audit` to build the foundation, then run `message-market-fit` to score your current messaging with evidence your stakeholders can't argue with.
 
 **If your pipeline is weak and you're not sure why:**
-→ Start with `icp-definition`, then `message-market-fit`. Vague ICP is usually the root cause of weak pipeline — not bad copy.
+→ Start with `icp-definition`. Vague ICP is usually the root cause of weak pipeline — not bad copy. Then run `message-market-fit` to test what you've got.
 
 **If you're launching something in the next 4–6 weeks:**
-→ Start with `message-market-fit` to validate your angle, then `launch-brief` to build the GTM plan around it.
+→ Start with `messaging-hierarchy` to lock your message stack, then `launch-brief` to build the GTM plan around it.
 
 **If sales keeps rewriting your messaging:**
 → Start with `message-market-fit` to produce evidence, then `battle-card` to give reps a tool that's faster than rewriting your work.
