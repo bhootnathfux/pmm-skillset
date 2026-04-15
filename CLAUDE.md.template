@@ -1,0 +1,364 @@
+# CLAUDE.md Template for Product Marketing Managers
+
+> **What is this?** This is your CLAUDE.md file — the context layer that makes every AI-assisted PMM skill dramatically better. Claude Code reads this file at the start of every session. If this file is weak, every downstream output is weak. If it's dialed in, Claude operates like a PMM who's been at your company for 6 months.
+>
+> **How to use it:** Copy this file into the root of your project directory as `CLAUDE.md`. Fill in every section. Be specific — vague inputs produce vague outputs. This should take about an hour if you do it properly. That hour pays for itself on every single skill run.
+>
+> **What to skip:** If a section doesn't apply yet (e.g., you don't have competitive intel), leave the placeholder and come back. An incomplete CLAUDE.md is still 10x better than no CLAUDE.md.
+
+---
+
+## About You
+
+<!-- Who are you and what's your context? This helps Claude calibrate its
+     communication style, depth, and assumptions. -->
+
+```
+Role:           [Your title — e.g., "Senior PMM at Acme"]
+Scope:          [What you own — e.g., "Messaging, positioning, launches for the core product"]
+Team size:      [Solo PMM / team of X / embedded in a pod]
+Reports to:     [CMO / VP Marketing / Head of Product / etc.]
+Experience:     [Years in PMM / marketing — helps calibrate jargon level]
+Working style:  [How you prefer to work with AI — fast and messy? Structured? Iterative?]
+```
+
+---
+
+## Your Company
+
+<!-- The basics. Claude needs this to ground every output in your reality,
+     not generic B2B SaaS advice. -->
+
+```
+Company name:   [Exact casing as used in brand]
+URL:            [Main website]
+What you sell:  [One sentence — the job your product does for customers.
+                 NOT your tagline. What would a customer say if someone
+                 asked "what does [company] do?"]
+Category:       [The market category you play in — e.g., "developer tools",
+                 "HR tech", "sales intelligence"]
+Stage:          [Pre-seed / Seed / Series A / Series B+ / Public / Bootstrapped]
+Team size:      [Approximate headcount]
+Founded:        [Year]
+HQ:             [Location]
+```
+
+---
+
+## Your Product
+
+<!-- What you're marketing. Be specific — "we help teams collaborate better"
+     is useless. "We help support teams resolve tickets 40% faster with
+     AI-suggested responses" is useful. -->
+
+### Core Product
+
+```
+Product name:   [Exact casing]
+One-liner:      [What the product does in one sentence — plain language]
+Primary use case: [The #1 reason people buy — not the #1 reason you
+                   wish they'd buy]
+Secondary use cases: [2-3 other jobs-to-be-done]
+Pricing model:  [Per-seat / usage-based / flat / freemium / etc.]
+Price range:    [Starting price → enterprise price]
+Free tier:      [Yes/No — what's included?]
+Key integrations: [The integrations that matter in deals]
+```
+
+### What Makes You Different
+
+<!-- These are your real differentiators — not "great customer support" or
+     "easy to use." What can a buyer verify? What would they not find at
+     a competitor? -->
+
+1. [Differentiator 1 — specific, measurable, verifiable]
+2. [Differentiator 2]
+3. [Differentiator 3]
+4. [Differentiator 4 — optional]
+5. [Differentiator 5 — optional]
+
+### What You Don't Do (Yet)
+
+<!-- Knowing your gaps prevents Claude from making claims you can't back up. -->
+
+- [Gap 1 — e.g., "No Salesforce integration yet — on roadmap for Q3"]
+- [Gap 2 — e.g., "No SOC 2 — in progress"]
+- [Gap 3]
+
+---
+
+## Your ICP
+
+<!-- Who are you selling to? The more specific this is, the better every
+     skill output becomes. If you've run /icp-definition, paste the
+     summary here. -->
+
+### Primary ICP
+
+```
+Company profile:
+  Industry:     [e.g., "B2B SaaS, 50-500 employees"]
+  Revenue:      [Range]
+  Tech stack:   [What they typically use]
+  Buying signal: [What triggers them to look for a solution like yours]
+
+Buyer persona:
+  Title:        [e.g., "VP of Engineering" or "Head of Support"]
+  Reports to:   [Who they answer to]
+  Day-to-day:   [What their week looks like — the workflows they live in]
+  Pain:         [The specific problem that makes them search for you]
+  Goal:         [What success looks like for them]
+  Objections:   [What they push back on during the sales cycle]
+
+End user persona (if different from buyer):
+  Title:        [e.g., "Support agent" or "SDR"]
+  Day-to-day:   [Their workflow]
+  What they care about: [Speed? Ease? Power?]
+```
+
+### Anti-ICP (Who You're NOT For)
+
+<!-- Just as important as knowing who to target. Prevents wasted effort. -->
+
+- [Signal 1 — e.g., "Companies with fewer than 10 employees — churn rate is 3x"]
+- [Signal 2 — e.g., "Teams without a dedicated ops/admin person — onboarding stalls"]
+- [Signal 3]
+
+---
+
+## Your Positioning
+
+<!-- How you're positioned in the market. If you've run /positioning-audit,
+     paste the summary here. -->
+
+```
+Category:               [What market do you play in?]
+For:                    [Who is it for — specific persona]
+Who need:               [What job they hire you for]
+Unlike:                 [The competitive alternative — what they'd do without you]
+We:                     [Your key differentiator — the one thing you win on]
+```
+
+### Positioning Landmines
+
+<!-- Things you should NEVER claim or imply in messaging. -->
+
+- [e.g., "Never say 'all-in-one' — we're not, and it invites comparison to platforms we can't match"]
+- [e.g., "Never claim enterprise-grade security — we don't have SOC 2 yet"]
+- [e.g., "Avoid '10x faster' — legal flagged this, use 'significantly faster' or cite specific benchmarks"]
+
+---
+
+## Your Messaging
+
+<!-- Your current messaging hierarchy. If you've run /messaging-hierarchy,
+     paste the top layers here. If you haven't, fill in what you have. -->
+
+### POV (Point of View)
+
+```
+[Your company's point of view on the market — the opinionated
+stance that everything else ladders up to.
+
+Example: "Most CRMs are built for managers who want to track reps.
+We built one for reps who want to close deals."]
+```
+
+### Value Proposition
+
+```
+[Your core value prop — the promise you make to the buyer.
+
+Example: "Close deals faster by eliminating the busywork that
+slows your pipeline — automated logging, AI forecasting, and
+zero-setup onboarding."]
+```
+
+### Key Benefits (3)
+
+```
+1. [Benefit + proof point]
+   Example: "Eliminate manual data entry → Auto-captures deal signals
+   from email, Slack, and calls. Reps save 5+ hours/week."
+
+2. [Benefit + proof point]
+
+3. [Benefit + proof point]
+```
+
+---
+
+## Your Competitive Landscape
+
+<!-- Who do you compete with? What do you win and lose on?
+     This section powers /battle-card and /competitive-landing-page. -->
+
+### Primary Competitors
+
+| Competitor | Where We Win | Where We Lose | Notes |
+|---|---|---|---|
+| [Competitor 1] | [Specific advantage] | [Specific weakness] | [Deal pattern] |
+| [Competitor 2] | [Specific advantage] | [Specific weakness] | [Deal pattern] |
+| [Competitor 3] | [Specific advantage] | [Specific weakness] | [Deal pattern] |
+
+### Competitive Positioning (How We Frame Ourselves Against Each)
+
+```
+vs [Competitor 1]: "[One-line angle — e.g., 'They're built for enterprise.
+                     We're built for teams that ship fast.']"
+vs [Competitor 2]: "[One-line angle]"
+vs [Competitor 3]: "[One-line angle]"
+```
+
+---
+
+## Your Proof Points
+
+<!-- Customer evidence that backs up your claims. This is the ammunition
+     that makes every skill output credible. -->
+
+### Customer Stories
+
+| Customer | Result | Quote | Permission to use? |
+|---|---|---|---|
+| [Company 1] | [Before → After with metrics] | "[What they said]" — [Name, Role] | Yes/No/Ask |
+| [Company 2] | [Before → After with metrics] | "[What they said]" — [Name, Role] | Yes/No/Ask |
+| [Company 3] | [Before → After with metrics] | "[What they said]" — [Name, Role] | Yes/No/Ask |
+
+### Review Platform Presence
+
+```
+G2:          [Score] / 5 — [Number of reviews] reviews — [Profile URL]
+Capterra:    [Score] / 5 — [Number of reviews] reviews — [Profile URL]
+TrustRadius: [Score] / 5 — [Number of reviews] reviews — [Profile URL]
+```
+
+### Key Metrics
+
+<!-- Numbers you can cite in marketing and sales materials. -->
+
+- [e.g., "89% customer satisfaction score (industry avg: 52%)"]
+- [e.g., "Average implementation time: 2 days (competitor avg: 3 weeks)"]
+- [e.g., "150+ customers in [vertical]"]
+
+---
+
+## Your Voice and Tone
+
+<!-- How your brand sounds. This calibrates Claude's writing style
+     for all copy outputs. -->
+
+```
+Voice:      [e.g., "Direct, confident, slightly irreverent. We sound like a
+             smart colleague, not a corporation."]
+Tone:       [e.g., "Warm but no-BS. We don't hedge. We don't use buzzwords.
+             We say what we mean."]
+Formality:  [Casual / Professional-casual / Professional / Formal]
+Jargon:     [e.g., "Use industry terms (ARR, ICP, GTM) freely — our audience
+             knows them. Avoid internal jargon (project codenames, internal
+             tool names)."]
+```
+
+### Words We Use
+
+- [e.g., "simple" not "streamlined"]
+- [e.g., "fast" not "accelerated"]
+- [e.g., "built for [persona]" not "designed to empower"]
+
+### Words We Never Use
+
+- [e.g., "synergy", "leverage" (as a verb), "disruptive"]
+- [e.g., "we're excited to announce" — the reader doesn't care about our emotions]
+- [e.g., "best-in-class" — unverifiable]
+- [e.g., "solution" without specifying what it solves]
+
+---
+
+## Your GTM Context
+
+<!-- Current state of your go-to-market. This helps Claude understand
+     what's live, what's planned, and what constraints exist. -->
+
+```
+Current channels:
+  Website:      [URL — CMS: Webflow/WordPress/etc.]
+  Blog:         [URL — publishing cadence]
+  Email list:   [Size — platform: HubSpot/Mailchimp/etc.]
+  Social:       [Platforms + follower counts]
+  Paid:         [Active? Budget range? Platforms?]
+  Sales team:   [Size — SDR/AE split — tools they use]
+  Partners:     [Any partner/channel program?]
+
+Recent launches:
+  [Date]: [What was launched — one line]
+  [Date]: [What was launched — one line]
+
+Upcoming:
+  [Date]: [What's coming — one line]
+  [Date]: [What's coming — one line]
+```
+
+---
+
+## Your Data Sources
+
+<!-- Where does your market, customer, and competitive intelligence live?
+     This helps Claude point you to the right place when running skills. -->
+
+```
+CRM:            [Tool — e.g., HubSpot, Salesforce]
+Call recordings: [Tool — e.g., Gong, Chorus, Fireflies]
+Analytics:      [Tool — e.g., Amplitude, Mixpanel, GA4]
+Review mining:  [G2, Capterra, TrustRadius profiles]
+VOC sources:    [Where do you hear from customers? Support tickets,
+                 NPS surveys, Slack community, advisory board, etc.]
+Competitive:    [Where do you track competitive intel? Klue, Crayon,
+                 manual doc, etc.]
+```
+
+---
+
+## Rules for Claude
+
+<!-- Specific instructions for how Claude should behave when working
+     with your content. Add rules as you learn what works. -->
+
+1. **Always use [Company Name] exactly as written** — not lowercase, not abbreviated, not paraphrased.
+2. **Never fabricate customer quotes or metrics.** If you don't have proof, say so — don't invent it.
+3. **Never claim capabilities we don't have.** Check the "What You Don't Do" section before making feature claims.
+4. **Match the voice guide.** Every piece of copy should sound like it came from the same brand.
+5. **Default to specific over generic.** "Saves 5 hours/week" beats "saves time." Always.
+6. [Add your own rules as you discover what Claude gets wrong or right]
+7. [Add your own rules]
+8. [Add your own rules]
+
+---
+
+## Skill Outputs Archive
+
+<!-- As you run skills, paste the summary outputs here. This creates a
+     compounding context — each skill run benefits from all previous ones. -->
+
+### ICP Definition
+<!-- Paste output summary from /icp-definition -->
+[Not yet run]
+
+### Positioning Audit
+<!-- Paste output summary from /positioning-audit -->
+[Not yet run]
+
+### Messaging Hierarchy
+<!-- Paste output summary from /messaging-hierarchy -->
+[Not yet run]
+
+### VOC Synthesis
+<!-- Paste output summary from /voc-synthesis -->
+[Not yet run]
+
+### Message-Market Fit
+<!-- Paste output summary from /message-market-fit -->
+[Not yet run]
+
+---
+
+> **Maintenance:** Update this file when things change — new competitors, new features, new positioning, new proof points. A stale CLAUDE.md is a drifting CLAUDE.md. Review it monthly. Your first update will take an hour. Every update after that takes 15 minutes.

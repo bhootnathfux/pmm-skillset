@@ -47,6 +47,14 @@ Each skill produces a specific artifact. Skills chain together — the output of
  │message-market-  │ │ competitive-   │ │  launch-brief  │
  │fit              │ │ landing-page   │ │  (GTM plan)    │
  │(test & prove)   │ │ (convert)      │ │                │
+ └─────────────────┘ └───────┬────────┘ └───────┬────────┘
+                             │                  │
+          ┌──────────────────┼──────────────────┤
+          │                  │                  │
+ ┌────────▼───────┐ ┌───────▼────────┐ ┌───────▼────────┐
+ │ battle-card     │ │ sales-         │ │ feature-       │
+ │ (arm sales)     │ │ narrative      │ │ announcement   │
+ │                 │ │ (tell story)   │ │ (create demand)│
  └─────────────────┘ └────────────────┘ └────────────────┘
 ```
 
@@ -102,6 +110,9 @@ Then invoke any skill in Claude Code:
 | [voc-synthesis](skills/tier-2/voc-synthesis/) | 2 | ✅ Available | Synthesize messy, multi-source VOC data (transcripts, surveys, reviews, CRM notes) into a structured Buyer Brain with frequency-weighted patterns, echo language bank, contradiction map, and evidence chains. Every claim traces to a real quote. Feeds directly into `/messaging-hierarchy`, `/positioning-audit`, and `/message-market-fit`. |
 | [competitive-landing-page](skills/tier-2/competitive-landing-page/) | 2 | ✅ Available | Generate production-ready "Your Product vs Competitor" landing pages for Google Ads. Collects product identity, competitive intelligence, and real review quotes (G2, Capterra, TrustRadius), then outputs a complete self-contained HTML page with 13 conversion-optimized sections. First page becomes the template; subsequent competitors take ~10 min. Includes [example output](skills/tier-2/competitive-landing-page/examples/pipelineos-vs-dealforce.html). |
 | [launch-brief](skills/tier-3/launch-brief/) | 3 | ✅ Available | Turn a product spec into a full launch plan: scope and tier the launch, define the messaging hook, build a channel plan with sequencing, set success metrics, map stakeholders with RACI, and produce a phase-by-phase execution timeline. Produces a stakeholder-ready Launch Brief Document with a 60-second launch pitch. |
+| [battle-card](skills/tier-3/battle-card/) | 3 | ✅ Available | Build a one-page competitive battle card for sales — sourced from win/loss patterns, review data, and pricing intelligence. Includes positioning summary, "where we win / where we lose" with talk tracks, objection handling with verbatim responses, landmine questions for discovery, and a 90-second briefing. Every claim traces to evidence. |
+| [sales-narrative](skills/tier-3/sales-narrative/) | 3 | ✅ Available | Transform a pitch deck into a structured 7-beat story arc: the shift → the cost → the old way → the new way → the proof → the product → the ask. Audits existing pitches for structural failures (feature dump, buried lead, no villain), builds persona-adapted talk tracks, and produces a slide-by-slide narrative guide with a 60-second version. |
+| [feature-announcement](skills/tier-3/feature-announcement/) | 3 | ✅ Available | Turn release notes into a multi-channel announcement package that creates demand, not just awareness. Extracts the story from the spec, finds the narrative angle (moment, before/after, or unlock), and generates ready-to-ship copy for blog, email, social, in-product, and changelog — with a quality check per asset. |
 <!-- SKILLS:END -->
 
 ---
@@ -135,9 +146,9 @@ What's being built and in what order — ranked by the impact PMMs get from each
 | # | Skill | What it does |
 |---|---|---|
 | 8 | `launch-brief` ✅ | Full launch document: audience, hook, channel plan, success metrics, stakeholder alignment |
-| 9 | `battle-card` | One-page competitive battle card for sales — built from your messaging system, not opinions |
-| 10 | `sales-narrative` | Transform a pitch deck into a structured story arc: problem → insight → proof → ask |
-| 11 | `feature-announcement` | Turn release notes into a product narrative that creates demand, not just awareness |
+| 9 | `battle-card` ✅ | One-page competitive battle card for sales — built from win/loss patterns, not opinions |
+| 10 | `sales-narrative` ✅ | Transform a pitch deck into a 7-beat story arc: shift → cost → old way → new way → proof → product → ask |
+| 11 | `feature-announcement` ✅ | Turn release notes into a multi-channel announcement package that creates demand, not just awareness |
 
 ### Tier 4 — Close the Loop
 *Feed real-world signal back into the messaging system.*
@@ -148,6 +159,14 @@ What's being built and in what order — ranked by the impact PMMs get from each
 | 13 | `objection-handler` | Map common objections to specific messaging responses with proof points and talk tracks |
 | 14 | `case-study-framework` | Structure a customer case study using the same messaging pillars as your GTM — so it compounds |
 | 15 | `executive-briefing` | Turn market data and messaging results into a tight, revenue-tied narrative for leadership |
+
+---
+
+## Set Up Your CLAUDE.md First
+
+Every skill in this repo reads your project's `CLAUDE.md` file for context — your product, ICP, positioning, competitive landscape, proof points, and voice. If your CLAUDE.md is weak, every skill output is weak. If it's dialed in, every skill operates like a PMM who's been at your company for 6 months.
+
+**[Grab the template →](CLAUDE.md.template)** Copy it to the root of your project directory as `CLAUDE.md` and fill it in. Takes about an hour. Pays for itself on every single skill run.
 
 ---
 
